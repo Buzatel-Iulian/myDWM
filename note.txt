@@ -1,0 +1,5 @@
+Battery percentage file:   /sys/class/power_supply/BAT1/capacity
+
+Status bar clock: https://lists.suckless.org/dwm/0706/2779.html
+
+
