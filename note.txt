@@ -1,5 +1,7 @@
 .xinitric is added manually
 
+!!!!!!!!! GET RID OF config.h WHEN REBUILDING/REINSTALLING   !!!!!!
+
 Add Login Menu Entry:
 -Write:
 [Desktop Entry]
