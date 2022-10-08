@@ -1,5 +1,25 @@
+.xinitric is added manually
+
+Add Login Menu Entry:
+-Write:
+[Desktop Entry]
+Name=mydwm
+Comment=dwm personnal rice
+Exec=dwm
+Type=Application
+-To: /usr/share/xsessions/chadwm.desktop
+
+DWM Base dependencies:
+sudo apt install -y libxft-dev libx11-dev libxinerama-dev
+
 Battery percentage file:   /sys/class/power_supply/BAT1/capacity
 
 Status bar clock: https://lists.suckless.org/dwm/0706/2779.html
 
+To apply patches:
+git apply --reject --whitespace=fix mychanges.patch
+https://stackoverflow.com/questions/4770177/git-patch-does-not-apply
 
+and:
+wiggle --replace file file.rej
+https://manpages.ubuntu.com/manpages/impish/man1/wiggle.1.html
