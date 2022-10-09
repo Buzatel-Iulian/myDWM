@@ -3,12 +3,14 @@
 !!!!!!!!! GET RID OF config.h WHEN REBUILDING/REINSTALLING   !!!!!!
 
 Add Login Menu Entry:
+
 -Write:
 [Desktop Entry]
 Name=mydwm
 Comment=dwm personnal rice
 Exec=dwm
 Type=Application
+
 -To: /usr/share/xsessions/chadwm.desktop
 
 DWM Base dependencies:
@@ -25,3 +27,6 @@ https://stackoverflow.com/questions/4770177/git-patch-does-not-apply
 and:
 wiggle --replace file file.rej
 https://manpages.ubuntu.com/manpages/impish/man1/wiggle.1.html
+
+The rest is manual.
+
