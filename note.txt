@@ -1,5 +1,7 @@
 .xinitric is added manually
 
+- Use xev for key identification
+
 !!!!!!!!! GET RID OF config.h WHEN REBUILDING/REINSTALLING   !!!!!!
 
 Add Login Menu Entry:

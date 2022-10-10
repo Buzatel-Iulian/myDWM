@@ -3,3 +3,5 @@
 *.porig
 *.swp
 dwm
+config.h
+
